@@ -1,11 +1,11 @@
 # 测试地址
-1. [滚动测试](https://nowheretorun.github.io/TestPage/dist/scroll)  
+1. [页面滚动测试](https://nowheretorun.github.io/TestPage/dist/pageScroll)  
 在页面中有一秒的定时器，每间隔一秒，输出当前时间并想服务器发送请求。观察响应。
 结论：
 在iOS uiwebview中 原生的滚动会阻塞js脚本的执行。
-表现为服务器收不到ajax请求 & 页面上时间没有刷新。  
+表现为服务器收不到ajax请求（服务器为http的测试地址，本测试页内无法访问） & 页面上时间没有刷新。  
 
-
+2. [DOM滚动测试](https://nowheretorun.github.io/TestPage/dist/domScroll)
 
 <br>
 
