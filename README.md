@@ -1,5 +1,5 @@
 # 测试地址
-1. [滚动测试]('./dist/scroll')  
+1. [滚动测试](https://nowheretorun.github.io/TestPage/dist/scroll)  
 在页面中有一秒的定时器，每间隔一秒，输出当前时间并想服务器发送请求。观察响应。
 结论：
 在iOS uiwebview中 原生的滚动会阻塞js脚本的执行。
@@ -7,15 +7,8 @@
 
 
 
+<br>
 
-
-
-
-# marauder-template
-
-marauder 工程模板，适用于单页与多页项目。
-
-为了保证多人开发时依赖安装的一致性，推荐使用 [yarn](https://yarnpkg.com/zh-Hans/) 作为包管理工具
 
 ## 命令
 
